@@ -1,0 +1,50 @@
+Real-Time CI CD Pipeline Project:-
+---------------------------------
+
+secret santa :-
+-------------
+
+
+1. create Jenkins setup
+2. install some plugins 
+
+jdk
+eclips
+SonarQube scanner
+owasp
+
+3. global tool config
+
+jdk
+sonarquber scanner
+maven
+dependency check
+
+4. create project
+
+write the groovy script 
+
+follow the all stages 
+
+is their any docker login problem in automechine just run the command that is a permissions issue
+
+$ sudo chmod 666 /var/run/docker.sock
+
+
+this is a command for copy the .jar file one Linux mechine to another Linux mechine
+
+
+$ scp /home/user/myfile.jar username@192.168.1.2:/home/username/
+
+
+ex;
+
+$ scp /home/ubuntu/.jenkins/workspace/secret_santa/target/secretsanta-0.0.1-SNAPSHOT.jar ubuntu@172.31.32.172:/home/ubuntu/
+
+ 
+
+
+
+
+
+
